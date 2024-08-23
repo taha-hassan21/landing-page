@@ -1,0 +1,38 @@
+/* importing roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* for logo inside the header */
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* for the links on the right side of the header */
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+/* for the links inside the header */
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* for the div container for the header */
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+}
+
+/* for adding roboto font to body */
+body {
+    font-family: Roboto, sans-serif;
+}
