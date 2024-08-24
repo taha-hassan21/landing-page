@@ -107,6 +107,41 @@ body {
     display: flex;
 }
 
+/* telling the text inside the card to share 50% of space with image */
 .content {
     flex: 1;
+}
+
+/* section 2 */
+
+/* for the title inside section 2 */
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* for making the blue squares */
+.square {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    border-width: 4px;
+    margin-bottom: 10px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info.text {
+    text-align: center;
+    width: 170px;
 }
