@@ -1,24 +1,27 @@
 /* importing roboto font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* for logo inside the header */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 /* for the links on the right side of the header */
 ul {
-    list-style-type: none;
-    display: flex;
+    list-style-type: none; /*removes the bullet list icon*/
+    display: flex; /*this makes the li elements in horizontal order*/
+    /* removes default space around ul li elements */
     margin: 0;
     padding: 0;
+    /* adds space between the elements */
     gap: 16px;
 }
 
 /* for the links inside the header */
 a {
-    text-decoration: none;
+    text-decoration: none; /*this removes the blue underline below the links*/
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -29,10 +32,81 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Roboto;
+    /* font-family: Roboto; */
+    margin-bottom: 100px; /*adds space between header and media card*/
+    padding-top: 15px;
 }
 
 /* for adding roboto font to body */
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+/* for first section */
+.section-1 {
+    /* setting background color for first section */
+    background-color: #1F2937;
+    /* adds left and right space in first section */
+    padding: 0 200px 150px;
+}
+
+/* for everything on the page */
+* {
+    /* removing space from the borders of the page */
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for media card */
+
+/* for the title inside the media card */
+.content.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+/* for the test inside the media card */
+.content.body {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 5px;
+}
+
+/* for the button inside the media card */
+.content button {
+    /* styling the button */
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    /* adding space between the button and the text */
+    padding: auto;
+    /* styling the text inside the button */
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+}
+
+/* for the image inside the media card */
+.media.image {
+    background-color: rgb(109 116 125);
+    color: #E5E7EB;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    margin-left: 15px;
+    flex: 1;
+}
+
+/* putting the media card image next to media card content */
+.media {
+    display: flex;
+}
+
+.content {
+    flex: 1;
 }
