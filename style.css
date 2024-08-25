@@ -218,10 +218,14 @@ body {
     font-weight: bolder;
 }
 
+.action-text {
+    color: white;
+}
+
 .button {
     /* styling the button */
     background-color: #3882F6;
-    border: 2ps solid white;
+    border: 2px solid white;
     border-radius: 8px;
     /* adding space between the button and the text */
     padding: auto;
@@ -243,3 +247,6 @@ body {
     align-items: center;
 }
 
+.footer-text {
+    color: white;
+}
